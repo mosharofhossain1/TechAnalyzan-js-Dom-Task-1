@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: skyblue;
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#changeText{
+    margin-bottom: 50px;
+}
+
+#clickBtn{
+    background-color: tomato;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+}
